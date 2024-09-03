@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/miama">
+   <style>
+   table,th,tr,td{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+   }
+   table{
+   width: 30%;
+    text-align: center;
+    
+   }
+   th,td,{
+    padding: 20px 10px;
+   }
+   .container{
+   color:rgba(34, 34, 34, 1);
+   
+    display: grid;
+    grid-template-columns: 70px 70px ;
+  
+    grid-column-gap: 2px;
+    grid-row-gap :1px; 
+   }
+   
+   @media screen and (max-width: 576px) {
+     .display-flex, .banner, .extra, .rounded-img, .bmi-main-part, .footer, .footer-main-des{
+        flex-direction: column;
+     }
+}
+
+   </style>
+</head>
+
+<body class="inter-fonts" >
+    
+    <header class="back-color">
+        <nav class="navbar display-flex">
+            <h3 class="name">Fitness</h3>
+             <ul class="nav-list display-flex">
+                <li class="nav-item"><a href="" class="nav-link text-color home-color">Home</a></li>
+                <li class="nav-item "><a href="" class="nav-link text-color">Service</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-color">Contact</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-color">About</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+        <div class="banner-content text-color navbar"> 
+            <h1 class="banner-title">Get body in <br> 
+           <span class="miama">shape</span> & stay <br> healthy</h1>
+           <p class="font-color">
+            A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!
+           </p>
+           <button class="btn-color">Join Club Now!</button>
+           <button class="btn-design">Download App</button>
+
+           
+
+          </div>
+          
+           <img class="btn-img" src="../Assignment-2/B10A2-versatile-ui/images/Images 2.png" alt=""> 
+            <div class="extra">
+              <img src="../Assignment-2/B10A2-versatile-ui/images/icons8-play-48.png" alt="">
+           <div class="card-1">
+           <div class="container-1">
+            <h3><b>350+</b></h3>
+            <p>Video tutorial</p>
+
+           </div>
+           </div>
+          </div>
+
+          <div class="extra-2">
+            <div class="card-2">
+            <div class="container-2">
+             <h2><b>500+</b></h2>
+             <p>Free Workout Videos</p>
+            </div>
+            </div>
+          </div>
+          </div>
+          
+          
+           
+    </header>
+
+    <main class="more back-color">
+     <div class="habits">
+        <div class="habit-des">
+         <h1 class="heading">Change Your Habits</h1>
+           <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+          <div class="rounded-img">
+          <div>
+            <img class="img-design" src="../Assignment-2/B10A2-versatile-ui/images/image 3.png" alt="">
+            <h4>Movement</h4>
+            <p class="font-color">We believe fitness should be accessible to everyone</p>
+          </div>
+          <div>
+            <img class="img-design" src="../Assignment-2/B10A2-versatile-ui/images/image 2.png" alt="">
+            <h4>Time</h4>
+            <p class="font-color">We believe fitness should be accessible to everyone</p>
+          </div>
+
+          <div>
+            <img class="img-design" src="../Assignment-2/B10A2-versatile-ui/images/image 4.png" alt="">
+            <h4>Practice</h4>
+            <p class="font-color">We believe fitness should be accessible to everyone</p>
+          </div>
+           <div>
+           <img class="img-design" src="../Assignment-2/B10A2-versatile-ui/images/image 5.png" alt="">
+           <h4>Weight Loss</h4>
+           <p class="font-color">We believe fitness should be accessible to everyone</p>
+           </div>
+
+          </div>
+        </div>
+     </div>
+
+     <section class="run-extra-mile display-flex">
+      <div class="run-des">
+       <h2 class="heading-color">Run an Extra Mile Easily</h2>
+       <p class="font-color">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+       <button class="btn-ex-design">Join Now</button>
+       </div>
+       <div>
+       <img class="img-border" src="../Assignment-2/B10A2-versatile-ui/images/run.jpg" alt="">
+      </div>
+      
+     </section>
+      
+     <section class="bmi-calculator">
+     <div class="calculator-des">
+     <h1 class="heading-color head-font">BMI Calculator</h1>
+     <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+     </div>
+
+     </section>
+     <section class="bmi-main-part">
+     <div class="bmi-chart">
+       <h3 class="bmi-h3 heading-color">BMI Calculator Chart</h3>
+
+    <table class="bmi-tab ">
+      <tr class="heading-color">
+        <th class="content-table">BMI</th>
+        <th class="content-table">Weight Status</th>
+      </tr>
+      <tr class="font-color">
+        <td class="content-table">Below 18.5</td>
+        <td class="content-table">Underweight</td>
+      </tr>
+      <tr class="font-color">
+        <td class="content-table">18.5 - 24.9</td>
+        <td class="content-table">Healthy</td>
+      </tr>
+      <tr class="font-color">
+        <td class="content-table">25.0 - 29.9</td>
+        <td class="content-table">Overweight</td>
+      </tr>
+      <tr class="font-color">
+        <td class="content-table">30.0 - and Above</td>
+      <td class="content-table">Obese</td>
+      </tr>
+    </table>
+     </div>
+     <div class="bmi-calc">
+      <h3 class="bmi-h3 heading-color">Calculate your BMI</h3>
+      <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+      
+      <div class=" font-color container">
+       
+      <div class="padding"><input type="text" value="Height/cm"></div>
+      <div class="padding"><input type="text" value="Weight/kg"></div>
+      <div class="padding"><input type="text" value="Age"></div>
+      <div class="padding"><input type="text" value="sex"></div>
+      <div class="padding"><input type="text" value="Select an activity factor" ></div>
+      </table>
+      
+     
+      </div>
+      <div>
+      <button class="btn-extra-design">Calculate</button>
+      </div>
+     </div>
+     </section>
+       
+       <section class="meet">
+      <div class="meet-des">
+      <h1 class="meet-heading heading-color">Meet Our Team</h1>
+       <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+      </div>
+        <div class="grid-photo">
+        <div class="trainer-part1">
+        <div class="width-1"><img class="size" src="../Assignment-2/B10A2-versatile-ui/images/trainer1.png" alt=""></div>
+       <div class="width-1"><img class="size" src="../Assignment-2/B10A2-versatile-ui/images/trainer2.png" alt=""></div>
+       <div class="width-1"><img class="size" src="../Assignment-2/B10A2-versatile-ui/images/trainer3.png" alt=""></div>
+       </div>
+       <div class="trainer-part2">
+        <div class="width-ex width"><img class="size-ex" src="../Assignment-2/B10A2-versatile-ui/images/trainer4.png" alt=""></div>
+        <div class="width"><img class="size-ex-2" src="../Assignment-2/B10A2-versatile-ui/images/trainer5.png" alt=""></div>
+       <div class="width"><img class="size-ex-2" src="../Assignment-2/B10A2-versatile-ui/images/trainer6.png" alt="">
+      </div>
+       </section>
+
+    
+    <section class="back-color footer">
+      <div class="footer-main-des">
+        <div class="footer-des">
+       <h1 class="name">Fitness</h1>
+       <p class="font-color">We believe fitness should be accessible to everyone, everywhere, <br> regardless of income or access to a gym. With hundreds of professional workouts.</p>
+        </div>
+        <div class="list-1">
+        <h3 class="heading-color head-1">Get Started</h3>
+        <ul class="footer-list-">
+          <li class="font-color none">Service</li>
+          <li class="font-color none">Contact Us</li>
+          <li class="font-color none">Affiliate Program</li>
+          <li class="font-color none">About Us</li>
+        </ul>
+        </div>
+        
+        <div class="list-2">
+          <h3 class="heading-color head-2">Get Started</h3>
+          <ul class="footer-list2">
+            <li class="font-color none">Fitness</li>
+            <li class="font-color none">Platform</li>
+            <li class="font-color none">Workout Libary</li>
+            <li class="font-color none">App Design</li>
+          </ul>
+          </div>
+             
+        </section>
+      </main>
+      <footer class="final">
+        <div class="final-des">
+      <hr color="gray" width="50%">
+      <p>All right reserved &copy;Fitness 2024 </p>
+      </div>
+      </footer>
+</body>
+</html>
